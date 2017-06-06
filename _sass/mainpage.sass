@@ -96,12 +96,6 @@
     width: 75%
     font-family: 'Halant'
     font-size: 34px
-    //for animation
-    position: relative
-    transform: translateX(0px)
-    transition: all 0.8s ease-in-out
-    &.slide_bottom_top
-      transform: translateY(-80px)
 
 
   .project_container
@@ -159,9 +153,18 @@
 
 
 
+.come-in
+  transform: translateY(150px)
+  animation: come-in 0.8s ease forwards
+  
+.already-visible
+  transform: translateY(0)
+  animation: none
 
 
-
+@keyframes come-in
+  to
+    transform: translateY(0)
 
 
 
@@ -236,7 +239,6 @@
   .header_section
     padding-bottom: 50px
     .nav_container
-      .logo_container
       .nav_bar_container
         font-size: 15px
         p:nth-child(1)
@@ -251,7 +253,6 @@
       p
         font-size: 20px
   .work_section
-    .work_brief
     .project_container
       width: 80%
       .project

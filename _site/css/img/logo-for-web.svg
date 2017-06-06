@@ -1,11 +1,7 @@
-<section class="about_section sec">
-  <div class="nav_container nav">
-    <div class="logo_container logo">
-
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
  "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<a href="."><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="500.000000pt" height="216.000000pt" viewBox="0 0 500.000000 216.000000"
  preserveAspectRatio="xMidYMid meet">
 <metadata>
@@ -36,31 +32,4 @@ l-70 -24 -6 45 c-3 24 -6 78 -6 120 0 129 -20 353 -36 411 -43 149 -105 211
 <path d="M1612 1670 c-29 -12 -36 -31 -28 -75 7 -35 21 -47 67 -58 35 -9 56
 10 64 55 6 31 3 41 -19 62 -26 27 -46 31 -84 16z"/>
 </g>
-</svg></a>
-
-    </div>
-    <div class="nav_bar_container nav_bar">
-      <p> <a href=".">WORK</a> </p>
-      <p><a href="about.html"> ABOUT ME </a></p>
-    </div>
-  </div>
-</section>
-<section class="about_hero">
-  <div class="about_intro">
-
-    <h1>“</h1>
-    <h1>Find the story. Know the story, Distill the story. Only then should you make visual decisions on how to tell the story. The best design begins with story.
-    </h1>
-    <h3> - Leland Moschmeyer </h3>
-
-
-    <p data-aos="fade-up">Introduction about myself. Introduce my design style which
-    is minimalism. Sed finibus elitconvallis quis. Suspendisse potenti. Curabitur
-    exnisl, tempor tempuslibero vulputate.</p>
-    <p data-aos="fade-up"> Talk about education and self learning. Nullam faucibus at sapien ut condimentum. Vestibulum iaculis tempus mattis. Phasellus nulla dolor. </p>
-    <p data-aos="fade-up">When Im  not designing I do photography and im try to shift my creativity into videos by creating cinematic vlogs about London. add other stuff I do expect for design </p>
-  </div>
-
-
-
-</section>
+</svg>
