@@ -12,6 +12,8 @@
     box-sizing: border-box; }
     .about_section .nav_container .logo_container {
       width: 10%; }
+      .about_section .nav_container .logo_container:hover #logo {
+        fill: #0000FF; }
       .about_section .nav_container .logo_container svg {
         max-width: 90%;
         height: auto;
@@ -40,7 +42,8 @@
   font-size: 30px;
   letter-spacing: -0.003em; }
   .about_hero .about_intro {
-    width: 75%; }
+    width: 75%;
+    padding-bottom: 80px; }
     .about_hero .about_intro h1 {
       text-align: center;
       font-family: "Montserrat";
@@ -98,7 +101,7 @@
   align-items: center;
   font-family: "Montserrat";
   font-weight: 400;
-  padding-bottom: 120px; }
+  padding-bottom: 80px; }
   .header_section .nav_container {
     display: flex;
     width: 75%;
@@ -106,8 +109,7 @@
     padding: 30px 0 80px 0;
     box-sizing: border-box; }
     .header_section .nav_container .logo_container {
-      width: 10%;
-      font-size: 18px; }
+      width: 10%; }
       .header_section .nav_container .logo_container:hover #logo {
         fill: #0000FF; }
       .header_section .nav_container .logo_container svg {
@@ -137,16 +139,8 @@
     font-weight: 600; }
     .header_section .hero_container p {
       margin-bottom: 30px; }
-    .header_section .hero_container a {
-      color: #0000FF;
-      text-decoration: none;
-      cursor: pointer; }
-    .header_section .hero_container a:nth-child(1) {
-      color: black;
-      border-bottom: 2px dashed #0000FF; }
-    .header_section .hero_container span:nth-child(3) {
-      color: #0D159B;
-      cursor: pointer; }
+      .header_section .hero_container p span {
+        color: #0000FF; }
   .header_section .social_media_container {
     display: flex;
     width: 75%;
@@ -180,14 +174,14 @@
   .work_section .work_brief {
     width: 75%;
     font-family: "Halant";
-    font-size: 34px; }
+    font-size: 30px; }
   .work_section .project_container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     font-family: "Halant";
     font-size: 18px; }
     .work_section .project_container .project_title {
@@ -217,7 +211,7 @@
         padding-left: 30px;
         box-sizing: border-box; }
     .work_section .project_container .view_project {
-      padding-top: 70px;
+      padding-top: 10px;
       font-family: "Montserrat";
       font-weight: 400; }
       .work_section .project_container .view_project p {

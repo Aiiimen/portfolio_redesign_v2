@@ -9,9 +9,12 @@
     width: 75%
     height: 100px
     padding: 30px 0 80px 0
-    box-sizing: border-box 
+    box-sizing: border-box
     .logo_container
       width: 10%
+      &:hover
+        #logo
+          fill: #0000FF
       svg
         max-width: 90%
         height: auto
@@ -38,10 +41,11 @@
   align-items: center
   font-family: 'Halant'
   font-size: 30px
-  
+
   letter-spacing: -.003em
   .about_intro
     width: 75%
+    padding-bottom: 80px
     h1
       text-align: center
       font-family: "Montserrat"
@@ -62,12 +66,12 @@
       font-size: 18px
       font-style: italic
       margin: 0
-      padding-bottom: 50px 
-   
-        
+      padding-bottom: 50px
 
-    
-    
+
+
+
+
 
 
 //media queries
@@ -93,11 +97,11 @@
         font-size: 15px
         text-align: center
         margin-top: 20px
-        padding-bottom: 30px         
+        padding-bottom: 30px
 
 
 //tablets from 768px to 1024px
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px)
   .about_section
     .nav_container
       .logo_container
@@ -109,5 +113,3 @@
         p:nth-child(2)
           font-weight: 300
           margin-left: 40px
-
-
